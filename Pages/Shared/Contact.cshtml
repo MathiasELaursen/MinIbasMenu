@@ -1,0 +1,44 @@
+﻿@page
+<html>
+<head>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Kontaktinormation</h2>
+
+    <table>
+        <tr>
+            <th>Navn</th>
+            <th>Email</th>
+            <th>Tlf-nummer</th>
+        </tr>
+        <tr>
+            <td>Karen</td>
+            <td>Karenkosteskaft@hotmail.com</td>
+            <td>68151861</td>
+        </tr>
+    </table>
+
+</body>
+</html>
+
+@{
+    ViewData["Title"] = "Home page";
+}
